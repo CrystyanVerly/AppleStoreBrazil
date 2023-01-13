@@ -1,0 +1,84 @@
+/* general */
+
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* nevagation bar */
+
+#navegation-bar {
+  background-color: #333;
+}
+
+#list-nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0 auto; /* Para margem funcionar, a largura nao deve interferir. */
+  font-size: 0.7rem;
+  padding: 0 1rem;
+  max-width: 57%;
+}
+
+#list-nav-bar a {
+  color: #f5f5f7;
+  transform: 4s;
+}
+
+#list-nav-bar a:hover {
+  color: #fff;
+}
+
+/* header */
+
+#header-bar {
+  font-size: 0.8rem;
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.div-header-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 54%;
+  margin: 0 auto;
+}
+
+.div-header-bar h3 {
+  font-size: 1.2rem;
+}
+
+.list-header-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-header-bar a {
+  margin: 0 0.5rem;
+  color: #333;
+}
+
+.btn {
+  background-color: #0071e3;
+  border-radius: 10rem;
+}
+
+#btn-header {
+  padding: 0.4rem 1rem;
+  color: #fff;
+}
+
+/* know more */
+
+.know-more-section {
+  text-align: center;
+  padding: 1rem;
+  background-color: #f5f5f7;
+  color: #1d1d1d;
+  font-size: 0.8rem;
+}
+
+#know-more-link {
+  color: #0071e3;
+}
