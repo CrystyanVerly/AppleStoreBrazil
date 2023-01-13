@@ -13,11 +13,11 @@
 #list-nav-bar {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
   margin: 0 auto; /* Para margem funcionar, a largura nao deve interferir. */
   font-size: 0.7rem;
   padding: 0 1rem;
-  max-width: 57%;
+  max-width: 1000px;
 }
 
 #list-nav-bar a {
@@ -41,7 +41,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 54%;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -81,4 +81,45 @@
 
 #know-more-link {
   color: #0071e3;
+}
+
+/* main content */
+
+#main-content {
+  text-align: center;
+  color: #1d1d1d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-title {
+  margin: 1rem;
+  font-size: 1.2rem;
+}
+
+.main-subtitle {
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 1rem;
+}
+
+.description-phone {
+  max-width: 37.5rem;
+  margin: 1rem auto;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+}
+
+.p-price {
+  font-size: 1.3rem;
+  color: #86868b;
+  margin: 2rem;
+}
+
+#btn-main-buy {
+  font-size: 1.1rem;
+  padding: 0.8rem 1.4rem;
+  color: #fff;
 }
