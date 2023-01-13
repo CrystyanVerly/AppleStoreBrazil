@@ -1,0 +1,1 @@
+A simple landing page with Apple tematic: Iphone 13 Pro.
